@@ -11,7 +11,10 @@
    <header class="cabecalho">
       <div class="barra">
          <a href="/index.html"><img src="/IMAGEM/Logo.svg" alt="Logo da empresa AluraGeek" class="logo"></a>
-         <input type="text" class="pesquisa" placeholder="O que deseja encontrar ?">
+         <div class="barra_pesquisa"></div>
+            <input type="text" class="pesquisa_texto" placeholder="O que deseja encontrar ?">
+            <input type="submit" value="&#128270;" class="barra_lupa">
+         </div>
       </div>
       <a href="/login.html"><input type="button" value="Login" class="botao_login botao_branco"></a>
    </header>
@@ -200,14 +203,11 @@
          </div>
          <div class="contato_faleconosco">
             <form  class="faleconosco_formulario">
-               <p class="faleconosco_formulario-titulo">
+               <p class="faleconosco_formulario-titulo">Fale conosco</p>
 
-               </p>
+               <input type="text" name="" id="" class="faleconosco_formulario-nome" placeholder="Digite seu nome">
 
-               <input type="text" name="" id="" class="faleconosco_formulario-nome">
-
-               <textarea name="" id="" cols="30" rows="10" class="faleconosco_formulario-mensagem">
-               </textarea>
+               <textarea name="mensagem" id="" cols="30" rows="10" class="faleconosco_formulario-mensagem" placeholder="Escreva uma mensagem"></textarea>
 
                <input type="button" value="Enviar Mensagem" class="botao_azul"></form>
          </div>
