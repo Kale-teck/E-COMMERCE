@@ -1,13 +1,15 @@
 .banner {
-   width: 100%;
+   max-width: 99%;
    height: 200px;
    background-image: url("/IMAGEM/Fundobanner.jpeg");
    background-repeat: no-repeat;
-   background-position: center;
+   background-position: center;   
    background-size: 100%;
    color: #FFFFFF;
    padding-left: 3rem;
    padding-top: 5rem;
+   display: flex;
+   flex-direction: column;
 }
 
 .banner_titulo {
@@ -25,20 +27,30 @@
 
 .banner_botao {
    margin-bottom: 0;
+   width: 200px;
 }
 
 .galeria {
-   padding: 0 10%;
+   padding: 0 5%;
 }
 
-.divisao_topo {
+.divisao_topo {   
    display: flex;
    justify-content: space-between;
    font-weight: 700;
    align-items: center;
    padding-top: 2rem;
    max-width: 100%;
-   padding-right: 2rem;
+   padding: 2rem 1rem;
+   padding-bottom: 0.5rem;
+}
+
+.divisao_item {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-left: 5px;
+   height: 215px;
 }
 
 .divisao_lista {
@@ -50,13 +62,17 @@
 .item_imagem {
    width: 150px;
    height: 149px;
-   
+   margin-top: 10px;
 }
 
 .item_nome {
    font-weight: 500;
    font-size: 14px;
-   word-wrap: break-word;
+   word-spacing: -1px;
+}
+
+.item_preco {
+   font-weight: 700;
 }
 
 /*ESTILIZAÇÃO DAS GALERIAS - FONTES ETC   */

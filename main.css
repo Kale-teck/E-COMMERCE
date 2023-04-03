@@ -1,10 +1,26 @@
 html {
    font-family: 'Raleway', sans-serif;
+   max-width: 1080px;
 }
 
 .botao {
    padding: 16px;
    font-weight: 400;
    font-size: 16px;
-   border: 2px solid black;
+   border: 2px solid;
 }
+
+.link {
+   text-decoration: none;
+   color: #2A7AE4;
+   font-weight: 700;
+}
+
+.botao_azul {
+   background-color: #2A7AE4;
+   border-color: #FFFFFF;
+   color: #FFFFFF;
+   padding: 16px;
+   font-weight: 600;
+}
+
