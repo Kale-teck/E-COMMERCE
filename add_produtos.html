@@ -11,8 +11,8 @@
    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="main.css">
    <link rel="stylesheet" href="/CSS/header.css">
-   <link rel="stylesheet" href="/CSS/login.css">
-
+   <link rel="stylesheet" href="/CSS/add_produtos.css">
+   <link rel="stylesheet" href="/CSS/rodape.css">
 </head>
 <body>
    
@@ -27,25 +27,63 @@
 
    <main class="addprodutos">
       <h2 class="addprodutos_titulo">Adicionar novo produto</h2>
-      <form action="" class="addprodutos_formulario pagina_login-formulario">
+      <form class="addprodutos_formulario pagina_login-formulario">
 
-         <label for="url_imagem">URL da imagem</label>
-         <input type="text" name="" id="url_imagem" class="addprodutos_formulario-input">
+         <div class="addprodutos_input-text">
+            <label for="url_imagem" class="addprodutos_label">URL da imagem</label>
+            <input type="text" name="" id="url_imagem" class="addprodutos_formulario-input">
+         </div>
 
-         <label for="categoria">Categoria</label>
-         <input type="text" name="" id="categoria" class="addprodutos_formulario-input" placeholder="Consoles">
+         <div class="addprodutos_input-text">
+            <label for="categoria" class="addprodutos_label">Categoria</label>
+            <input type="text" name="" id="categoria" class="addprodutos_formulario-input" placeholder="Consoles">
+         </div>
 
-         <label for="nome_produto">Nome do produto</label>
-         <input type="text" name="" id="nome_produto" class="addprodutos_formulario-input" placeholder="produto XYZ">
+         <div class="addprodutos_input-text">
+            <label for="nome_produto" class="addprodutos_label">Nome do produto</label>
+            <input type="text" name="" id="nome_produto" class="addprodutos_formulario-input" placeholder="produto XYZ">
+         </div>
 
-         <label for="preco_produto">Preço do produto</label>
-         <input type="text" name="" id="preco_produto" class="addprodutos_formulario-input" placeholder="R$ 60,00">
+         <div class="addprodutos_input-text">
+            <label for="preco_produto" class="addprodutos_label">Preço do produto</label>
+            <input type="text" name="" id="preco_produto" class="addprodutos_formulario-input" placeholder="R$ 60,00">
+         </div>
 
-         <textarea name="" id="" cols="40" rows="5" placeholder="Descrição do produto"></textarea>
+         <div class="addprodutos_input-text">
+            <textarea name="" id="" cols="40" rows="5" placeholder="Descrição do produto" class="addprodutos_formulario-input textarea"></textarea>
+         </div>
 
-         <input type="submit" value="Adicionar produto" class="botao_azul">
+         <input type="submit" value="Adicionar produto" class="addprodutos_botao botao_azul">
       </form>
    </main>
    
+   <footer class="rodape">
+      <section class="contato">
+         <a href="/index.html"><img src="/IMAGEM/Logo.svg" alt="Logo da empresa AluraGeek" class="logo"></a>
+         <ul class="contato_navegacao-lista">
+               <li class="contato_navegacao-listaitem">Quem somos nós</li>
+               <li class="contato_navegacao-listaitem">Política de privacidade</li>
+               <li class="contato_navegacao-listaitem">Programa fidelidade</li>
+               <li class="contato_navegacao-listaitem">Nossa loja</li>
+               <li class="contato_navegacao-listaitem">Quero ser franqueado</li>
+               <li class="contato_navegacao-listaitem">Anúncio aqui</li>
+         </ul>
+         <form  class="faleconosco_formulario">
+            <p class="faleconosco_formulario-titulo">Fale conosco</p>
+
+            <div class="nome">
+               <label for="name" class="nome_label">Nome</label>
+               <input type="text" name="" id="name" class="nome_text form_text" placeholder="Digite seu nome">
+            </div>
+
+            <textarea name="mensagem" id="" cols="30" rows="5" class="faleconosco_formulario-mensagem form_textarea" placeholder="Escreva uma mensagem" ></textarea>
+
+            <input type="button" value="Enviar Mensagem" class="botao_azul botao">
+         </form>
+      </section>
+      <section class="rodape_copyright">
+         <p class="rodape_paragrafo">Desenvolvido por Kalebe Martins</p>
+      </section>
+   </footer>
 </body>
 </html>

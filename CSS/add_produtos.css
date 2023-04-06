@@ -1,0 +1,48 @@
+.addprodutos {
+   background-color: #E5E5E5;
+   display: flex;
+   flex-direction: column;
+   padding: 2rem 0;
+   align-items: center;
+}
+
+.addprodutos_titulo {
+   font-size: 32px;
+   font-weight: 700;
+   margin-bottom: 1rem;
+}
+
+.addprodutos_formulario {
+   width: 559px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.addprodutos_input-text {
+   display: flex;
+   flex-direction: column;
+   background-color: #FFFFFF;
+   padding: 10px;
+}
+
+.addprodutos_label {
+   color: #A2A2A2;
+   font-size: 12px;
+}
+
+.addprodutos_formulario-input {
+   border: none;
+   font-weight: 500;
+   margin-left: 5px;
+   margin-top: 5px;
+}
+
+.textarea {
+   resize: none;
+}
+
+.addprodutos_botao {
+   width: 559px;
+}
+

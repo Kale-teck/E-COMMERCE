@@ -137,7 +137,6 @@
             </div>
             <ul class="divisao_lista">
                <li class="divisao_item">
-
                   <li class="divisao_item">
                   <img src="IMAGEM/diversos/diversos_1.png" alt="imagem produto" class="item_imagem">
                   <h3 class="item_nome">Camisa Atari</h3>
@@ -186,7 +185,7 @@
 
    <footer class="rodape">
       <section class="contato">
-         <img src="/IMAGEM/Logo.svg" alt="Logo da empresa AluraGeek" class="logo">
+         <a href="/index.html"><img src="/IMAGEM/Logo.svg" alt="Logo da empresa AluraGeek" class="logo"></a>
          <ul class="contato_navegacao-lista">
                <li class="contato_navegacao-listaitem">Quem somos nós</li>
                <li class="contato_navegacao-listaitem">Política de privacidade</li>
@@ -198,10 +197,12 @@
          <form  class="faleconosco_formulario">
             <p class="faleconosco_formulario-titulo">Fale conosco</p>
 
-            <label for="name" class="form_label">Nome</label>
-            <input type="text" name="" id="name" class="faleconosco_formulario-nome form_text" placeholder="Digite seu nome">
+            <div class="nome">
+               <label for="name" class="nome_label">Nome</label>
+               <input type="text" name="" id="name" class="nome_text form_text" placeholder="Digite seu nome">
+            </div>
 
-            <textarea name="mensagem" id="" cols="30" rows="10" class="faleconosco_formulario-mensagem form_textarea" placeholder="Escreva uma mensagem" ></textarea>
+            <textarea name="mensagem" id="" cols="30" rows="5" class="faleconosco_formulario-mensagem form_textarea" placeholder="Escreva uma mensagem" ></textarea>
 
             <input type="button" value="Enviar Mensagem" class="botao_azul botao">
          </form>

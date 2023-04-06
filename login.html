@@ -12,6 +12,7 @@
    <link rel="stylesheet" href="main.css">
    <link rel="stylesheet" href="/CSS/header.css">
    <link rel="stylesheet" href="/CSS/login.css">
+   <link rel="stylesheet" href="/CSS/rodape.css">
 </head>
 <body>
    
@@ -29,9 +30,39 @@
       <form  class="pagina_login-formulario">
          <input type="email" name="" id="" class="login_email" placeholder="Escreva seu email">
          <input type="password" name="" id="" class="login_email" placeholder="Escreva sua senha">
-         <input type="button" value="Entrar" class="formulario_botao botao_azul botao">
+         <input type="button" value="Entrar" class="login_botao botao_azul botao">
       </form>
    </main>
+
+   
+   <footer class="rodape">
+      <section class="contato">
+         <a href="/index.html"><img src="/IMAGEM/Logo.svg" alt="Logo da empresa AluraGeek" class="logo"></a>
+         <ul class="contato_navegacao-lista">
+               <li class="contato_navegacao-listaitem">Quem somos nós</li>
+               <li class="contato_navegacao-listaitem">Política de privacidade</li>
+               <li class="contato_navegacao-listaitem">Programa fidelidade</li>
+               <li class="contato_navegacao-listaitem">Nossa loja</li>
+               <li class="contato_navegacao-listaitem">Quero ser franqueado</li>
+               <li class="contato_navegacao-listaitem">Anúncio aqui</li>
+         </ul>
+         <form  class="faleconosco_formulario">
+            <p class="faleconosco_formulario-titulo">Fale conosco</p>
+
+            <div class="nome">
+               <label for="name" class="nome_label">Nome</label>
+               <input type="text" name="" id="name" class="nome_text form_text" placeholder="Digite seu nome">
+            </div>
+
+            <textarea name="mensagem" id="" cols="30" rows="5" class="faleconosco_formulario-mensagem form_textarea" placeholder="Escreva uma mensagem" ></textarea>
+
+            <input type="button" value="Enviar Mensagem" class="botao_azul botao">
+         </form>
+      </section>
+      <section class="rodape_copyright">
+         <p class="rodape_paragrafo">Desenvolvido por Kalebe Martins</p>
+      </section>
+   </footer>
    
    
 </body>

@@ -1,6 +1,5 @@
 html {
    font-family: 'Raleway', sans-serif;
-   max-width: 1080px;
 }
 
 .botao {
@@ -8,6 +7,7 @@ html {
    font-weight: 400;
    font-size: 16px;
    border: 2px solid;
+   width: 100px;
 }
 
 .link {
@@ -22,5 +22,11 @@ html {
    color: #FFFFFF;
    padding: 16px;
    font-weight: 600;
+   width: 200px;
 }
 
+textarea:focus, input:focus, select:focus {
+   box-shadow: 0 0 0 0;
+   border: 0 none;
+   outline: 0;
+} 

@@ -1,12 +1,15 @@
+/* FOOTER  */
+
 .contato {
    display: flex;
    align-items: flex-start;
    padding: 2rem 3rem;
    justify-content: space-between;
    background-color: #EAF2FD;
-   margin-top: 2rem;
    height: 250px;
 }
+
+/* FOOTER LISTA  */
 
 .contato_navegacao-lista {
    height: 100%;
@@ -16,15 +19,49 @@
    justify-content: space-between;
 }
 
+/*  FOOTER FORMULÁRIO  */
+
 .faleconosco_formulario {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   width: 40%;
+   width: 50%;
+   gap: 8px;
 }
 
 .faleconosco_formulario-titulo {
    font-weight: 700;
+}
+
+.nome {
+   display: flex;
+   flex-direction: column;
+   background-color: #FFFFFF;
+   padding: 8px;
+}
+
+.nome_label {
+   font-weight: 400;
+   color: #A2A2A2;
+}
+
+.nome_text {
+   font-weight: 400;
+   color: #464646;
+   line-height: 17px;
+   font-size: 16px;
+   border: none;
+   margin-top: 5px;
+}
+
+.form_textarea {
+   resize: none;
+   border: none;
+   padding: 10px;
+   font-size: 16px;
+   line-height: 20px;
+   height: 80px;
+   font-family: "Raleway";
 }
 
 .rodape_copyright {
