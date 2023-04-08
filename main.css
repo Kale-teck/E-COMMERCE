@@ -30,3 +30,9 @@ textarea:focus, input:focus, select:focus {
    border: 0 none;
    outline: 0;
 } 
+
+@media (max-width: 480px) {
+   .botao {
+      width: 80px;
+   }
+}

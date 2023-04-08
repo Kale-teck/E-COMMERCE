@@ -120,3 +120,29 @@
          display: none;
       }
    }
+
+@media (max-width: 480px) {
+   
+   /* BANNER  */
+   
+   .banner {
+      padding-left: 0.5rem;
+      height: 275px;
+      background-size: 140%;
+      padding-top: 3rem;
+   }
+
+   /* MAIN  */  
+
+   .divisao_item {
+      margin-top: 30px;
+      justify-content: space-around;
+      height: 250px;
+   }
+
+   
+   .item_imagem {
+      width: 175px;
+      height: 170px;
+   }
+}

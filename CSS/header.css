@@ -49,3 +49,34 @@
       margin-right: 5%;
    }
 }
+
+@media (max-width: 480px) {
+   
+   /* CABECALHO  */
+
+   .cabecalho {
+      padding: 0.5rem;
+      align-items: center;
+   }
+
+   .logo {
+      width: 100px;
+   }
+   
+   .cabecalho_pesquisa {
+      order: 2;
+      background-color: #FFFFFF;
+      width: 30px;
+   }
+
+   .pesquisa_texto {
+      display: none;
+   }
+
+   .pesquisa_lupa {
+      background-color: #FFFFFF;
+      margin-right: 5px;
+      font-size: 25px;
+   }
+
+}

@@ -72,7 +72,10 @@
 
 /* RESPONSIVO TABLET  */
 
-@media (max-width: 780px) {
+ @media (max-width: 780px) and (min-width: 480px) {
+   
+   /* FOOTER  */
+   
    .contato {
       padding: 2rem 2rem;
    }
@@ -84,7 +87,47 @@
       gap: 16px;
       margin-left: 5px;
    }
-}
+} 
 
 /* RESPONSIVO CELULAR  */
 
+@media (max-width: 480px) {
+
+   .contato {
+      flex-direction: column;
+      height: 550px;
+      padding: 1.5rem;
+      gap: 15px;
+   }
+
+   .contato:first-child {
+      align-items: center;
+   }
+
+   .rodape .contato .logo {
+      width: 250px;
+   }
+
+   /* FOOTER LISTA  */
+
+   .contato_navegacao-lista {
+      width: 100%;
+      height: auto;
+      gap: 10px;
+      align-items: center;
+   }
+
+   /*  FOOTER FORMULÁRIO  */
+
+   .faleconosco_formulario {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      gap: 20px;
+   }
+
+   form .botao {
+      width: 100%;
+   }
+}
