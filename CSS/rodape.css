@@ -19,6 +19,7 @@
    justify-content: space-between;
 }
 
+
 /*  FOOTER FORMULÁRIO  */
 
 .faleconosco_formulario {
@@ -68,3 +69,22 @@
    padding: 2rem;
    text-align: center;
 }
+
+/* RESPONSIVO TABLET  */
+
+@media (max-width: 780px) {
+   .contato {
+      padding: 2rem 2rem;
+   }
+      
+   .contato_navegacao-lista {
+      position: absolute;
+      height: 15%;
+      margin-top: 4rem;
+      gap: 16px;
+      margin-left: 5px;
+   }
+}
+
+/* RESPONSIVO CELULAR  */
+

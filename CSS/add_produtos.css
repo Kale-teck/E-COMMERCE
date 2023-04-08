@@ -46,3 +46,12 @@
    width: 559px;
 }
 
+@media (max-width: 915px) {
+   .addprodutos_formulario {
+      width: 704px;
+   }
+
+   .addprodutos_botao {
+      width: 704px;
+   }
+}

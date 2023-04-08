@@ -5,3 +5,15 @@
 .item_imagem-galeria {
    margin-top: 50px;
 }
+
+@media (max-width: 780px) {
+
+   
+   .divisao_item:nth-child(6) {
+      display: block;
+   }
+
+   .divisao_item:nth-child(5) {
+      display: block;
+   }
+}

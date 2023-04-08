@@ -1,9 +1,13 @@
+/* CABEÇALHO  */
+
 .cabecalho {
    display: flex;
    padding: 1rem 3rem;
    justify-content: space-between;
    padding: 1rem 5%;
 }
+
+/* BARRA DE PESQUISA  */
 
 .cabecalho_pesquisa {
    background-color: #F5F5F5;
@@ -15,6 +19,7 @@
    border-radius: 35px;
    margin-left: 2%;
 }
+
 
 .pesquisa_texto {
    width: 80%;
@@ -29,9 +34,18 @@
    font-size: large;
 }
 
+/* BOTÃO LOGIN  */
+
 .botao_login {
    width: 180px;
    color: #2A7AE4;
    border-color: #2A7AE4;
    background-color: #FFFFFF;
+}
+
+
+@media (max-width: 915px) {
+   .cabecalho_pesquisa {
+      margin-right: 5%;
+   }
 }
