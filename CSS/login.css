@@ -30,3 +30,26 @@
 .login_botao {
    width: 423px;
 }
+
+@media (max-width: 915px) {
+   .pagina_login-formulario {
+      gap: 2rem;
+   }
+
+   .login_botao {
+      margin: auto;
+      width: 300px;
+   }
+}
+
+@media (max-width: 480px) {
+   .pagina_login-formulario {
+      width: 300px;
+   }
+}
+
+@media (max-width: 360px) {
+   .pagina_login-formulario {
+      width: 275px;
+   }
+}

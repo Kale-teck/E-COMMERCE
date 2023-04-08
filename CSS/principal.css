@@ -141,8 +141,32 @@
    }
 
    
-   .item_imagem {
-      width: 175px;
-      height: 170px;
+}
+
+@media (max-width: 360px) {
+
+   /* BANNER  */
+   
+   .banner {
+      padding-left: 0.5rem;
+      padding-top: 2rem;
    }
+
+   .banner_titulo {
+      font-size: 38px;
+   }
+
+   .divisao_item {
+      gap: 1px;
+   }
+   
+   .item_imagem {
+      width: 140px;
+      height: 135px;
+   }
+
+   .item_nome {
+      max-width: 140px;
+   }
+   
 }
