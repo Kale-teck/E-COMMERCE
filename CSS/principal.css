@@ -3,7 +3,7 @@
 .banner {
    max-width: 99%;
    height: 200px;
-   background-image: url("/IMAGEM/Fundobanner.jpeg");
+   background-image: url("./IMAGEM/Fundobanner.jpeg");
    background-repeat: no-repeat;
    background-position: center;   
    background-size: 100%;
