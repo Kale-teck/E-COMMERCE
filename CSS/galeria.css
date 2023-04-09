@@ -17,3 +17,47 @@
       display: block;
    }
 }
+
+@media (max-width: 480px) {
+   .galeria {
+      padding: 0 1.5rem;
+      padding-bottom: 3rem;
+   }
+
+   .divisao_topo {
+      flex-direction: column;
+   }
+
+   .item_imagem-galeria {
+      margin-top: 10px;
+   }
+
+   .divisao_titulo {
+      margin-bottom: 20px;
+   }
+}
+
+@media (max-width: 360px) {
+   .galeria {
+      padding: 1rem;
+      padding-bottom: 3rem;
+   }
+
+   .divisao_lista-galeria {
+      gap: 0%;
+      justify-content: space-around;
+   }
+
+   .divisao_item {
+      max-width: 130px;
+   }
+
+   .divisao_topo-galeria {
+      padding: 0px;
+   }
+
+   .item_imagem-galeria {
+      width: 140px;
+      height: 140px;
+   }
+}
