@@ -7,6 +7,14 @@
    padding: 1rem 5%;
 }
 
+.logo {
+   transition: 2s;
+}
+
+.logo:hover {
+   width: 190px;
+}
+
 /* BARRA DE PESQUISA  */
 
 .cabecalho_pesquisa {
@@ -62,6 +70,10 @@
    .logo {
       width: 100px;
    }
+
+   .logo:hover {
+      width: 120px;
+   }
    
    .cabecalho_pesquisa {
       order: 2;
@@ -87,6 +99,5 @@
       border-color: #2A7AE4;
       background-color: #FFFFFF;
    }
-
    
 }
