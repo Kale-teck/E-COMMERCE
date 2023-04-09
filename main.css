@@ -26,6 +26,7 @@ html {
    box-shadow: 0 0 0 0;
    transition: 1s;
    border-radius: 5px;
+   cursor: pointer;
 }
 
 .botao_azul:hover {
@@ -35,6 +36,7 @@ html {
 .botao_branco {
    transition: 1s;
    border-radius: 5px;
+   cursor: pointer;
 }
 
 .botao_branco:hover {
