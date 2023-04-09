@@ -24,6 +24,7 @@
    flex-direction: column;
    background-color: #FFFFFF;
    padding: 10px;
+   border-radius: 5px;
 }
 
 .addprodutos_label {
@@ -47,11 +48,48 @@
 }
 
 @media (max-width: 915px) {
+
+   .addprodutos_titulo {
+      font-size: 30px;
+   }
+
    .addprodutos_formulario {
-      width: 704px;
+      width: 650px;
    }
 
    .addprodutos_botao {
-      width: 704px;
+      width: 650px;
+   }
+
+}
+
+@media (max-width: 480px) {
+
+   .addprodutos_titulo {
+      font-size: 28px;
+   }
+
+   .addprodutos_formulario {
+      width: 350px;
+   }
+
+   .addprodutos_botao {
+      width: 350px;
+   }
+
+}
+
+@media (max-width: 360px) {
+
+   .addprodutos_titulo {
+      font-size: 24px;
+   }
+
+   .addprodutos_formulario {
+      width: 290px;
+   }
+
+   .addprodutos_botao {
+      width: 290px;
    }
 }

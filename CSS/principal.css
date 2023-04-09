@@ -5,7 +5,8 @@
    height: 200px;
    background-image: url("../IMAGEM/Fundobanner.jpeg");
    background-repeat: no-repeat;
-   background-position: center;   
+   background-position: center;
+   
    background-size: 100%;
    color: #FFFFFF;
    padding-left: 3rem;
@@ -80,6 +81,7 @@
 .item_imagem {
    width: 150px;
    height: 149px;
+   border-radius: 5px;
 }
 
 .item_nome {

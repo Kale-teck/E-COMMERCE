@@ -18,11 +18,27 @@ html {
 
 .botao_azul {
    background-color: #2A7AE4;
-   border-color: #FFFFFF;
+   border: none;
    color: #FFFFFF;
    padding: 16px;
    font-weight: 600;
    width: 200px;
+   box-shadow: 0 0 0 0;
+   transition: 1s;
+   border-radius: 5px;
+}
+
+.botao_azul:hover {
+   background-color: #5595E9;
+}
+
+.botao_branco {
+   transition: 1s;
+   border-radius: 5px;
+}
+
+.botao_branco:hover {
+   background-color: #D4E4FA;
 }
 
 textarea:focus, input:focus, select:focus {
