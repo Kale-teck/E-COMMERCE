@@ -32,26 +32,26 @@
 
          <div class="addprodutos_input-text">
             <label for="url_imagem" class="addprodutos_label">URL da imagem</label>
-            <input type="text" name="" id="url_imagem" class="addprodutos_formulario-input">
+            <input type="text" name="" id="url_imagem" class="addprodutos_formulario-input" required>
          </div>
 
          <div class="addprodutos_input-text">
             <label for="categoria" class="addprodutos_label">Categoria</label>
-            <input type="text" name="" id="categoria" class="addprodutos_formulario-input" placeholder="Consoles">
+            <input type="text" name="" id="categoria" class="addprodutos_formulario-input" placeholder="Consoles" required>
          </div>
 
          <div class="addprodutos_input-text">
             <label for="nome_produto" class="addprodutos_label">Nome do produto</label>
-            <input type="text" name="" id="nome_produto" class="addprodutos_formulario-input" placeholder="produto XYZ">
+            <input type="text" name="" id="nome_produto" class="addprodutos_formulario-input" placeholder="produto XYZ" maxlength="20" required>
          </div>
 
          <div class="addprodutos_input-text">
             <label for="preco_produto" class="addprodutos_label">Preço do produto</label>
-            <input type="text" name="" id="preco_produto" class="addprodutos_formulario-input" placeholder="R$ 60,00">
+            <input type="number" name="" id="preco_produto" class="addprodutos_formulario-input" placeholder="R$ 60,00" required>
          </div>
 
          <div class="addprodutos_input-text">
-            <textarea name="" id="" cols="40" rows="5" placeholder="Descrição do produto" class="addprodutos_formulario-input textarea"></textarea>
+            <textarea name="" id="" cols="40" rows="5" placeholder="Descrição do produto" class="addprodutos_formulario-input textarea" maxlength="150" required></textarea>
          </div>
 
          <input type="submit" value="Adicionar produto" class="addprodutos_botao botao_azul">
@@ -74,10 +74,10 @@
 
             <div class="nome">
                <label for="name" class="nome_label">Nome</label>
-               <input type="text" name="" id="name" class="nome_text form_text" placeholder="Digite seu nome">
+               <input type="text" name="" id="name" class="nome_text form_text" placeholder="Digite seu nome" required max-length="40">
             </div>
 
-            <textarea name="mensagem" id="" cols="30" rows="5" class="faleconosco_formulario-mensagem form_textarea" placeholder="Escreva uma mensagem" ></textarea>
+            <textarea name="mensagem" id="" cols="30" rows="5" class="faleconosco_formulario-mensagem form_textarea" placeholder="Escreva uma mensagem" required max-length="120" ></textarea>
 
             <input type="button" value="Enviar Mensagem" class="botao_azul botao">
          </form>

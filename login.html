@@ -29,9 +29,9 @@
       <h2 class="pagina_login-titulo">Iniciar Sessão</h2>
 
       <form  class="pagina_login-formulario">
-         <input type="email" name="" id="" class="login_email" placeholder="Escreva seu email">
-         <input type="password" name="" id="" class="login_email" placeholder="Escreva sua senha">
-         <input type="button" value="Entrar" class="login_botao botao_azul botao">
+         <input type="email" name="" id="" class="login_email" placeholder="Escreva seu email" required>
+         <input type="password" name="" id="" class="login_email" placeholder="Escreva sua senha" required>
+         <input type="submit" value="Entrar" class="login_botao botao_azul botao">
       </form>
    </main>
 
@@ -52,10 +52,10 @@
 
             <div class="nome">
                <label for="name" class="nome_label">Nome</label>
-               <input type="text" name="" id="name" class="nome_text form_text" placeholder="Digite seu nome">
+               <input type="text" name="" id="name" class="nome_text form_text" placeholder="Digite seu nome" required max-length="40">
             </div>
 
-            <textarea name="mensagem" id="" cols="30" rows="5" class="faleconosco_formulario-mensagem form_textarea" placeholder="Escreva uma mensagem" ></textarea>
+            <textarea name="mensagem" id="" cols="30" rows="5" class="faleconosco_formulario-mensagem form_textarea" placeholder="Escreva uma mensagem" required max-length="120" ></textarea>
 
             <input type="button" value="Enviar Mensagem" class="botao_azul botao">
          </form>
