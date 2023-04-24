@@ -197,15 +197,17 @@
                <li class="contato_navegacao-listaitem">Quero ser franqueado</li>
                <li class="contato_navegacao-listaitem">Anúncio aqui</li>
          </ul>
-         <form  class="faleconosco_formulario">
+         <form  class="faleconosco_formulario" data-formulario>
             <p class="faleconosco_formulario-titulo">Fale conosco</p>
 
             <div class="nome">
                <label for="name" class="nome_label">Nome</label>
                <input type="text" name="nome" id="name" class="nome_text form_text" placeholder="Digite seu nome" required max-length="40">
+               <span class="mensagem-erro"></span>
             </div>
 
             <textarea name="mensagem" id="" cols="30" rows="5" class="faleconosco_formulario-mensagem form_textarea" placeholder="Escreva uma mensagem" required max-length="120" ></textarea>
+            <span class="mensagem-erro"></span>
 
             <input type="submit" value="Enviar Mensagem" class="botao_azul botao">
          </form>
@@ -214,5 +216,6 @@
          <p class="rodape_paragrafo">Desenvolvido por Kalebe Martins <br> 2023</p>
       </section>
    </footer>
+   <script src="./JS/script.js" type="module"></script>
 </body>
 </html>

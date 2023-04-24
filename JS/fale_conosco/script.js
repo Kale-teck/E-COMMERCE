@@ -1,10 +1,10 @@
-import validaNome from "./valida_nome.js"
-import validaEmail from "./valida_email.js"
-import validaAssunto from "./valida_assunto.js"
-import validaMensagem from "./valida_mensagem.js"
-import { mensagens, tiposDeErro } from "./mensagens.js"
+import validaNome from "../valida_nome.js"
+//import validaEmail from "./valida_email.js"
+//import validaAssunto from "./valida_assunto.js"
+import validaMensagem from "../valida_mensagem.js"
+import { mensagens, tiposDeErro } from "../mensagens.js"
 
-const formularios = document.getElementsByTagName("input")
+const formularios = document.querySelector("[required]")
 
 formularios.forEach((evento) => {
 
